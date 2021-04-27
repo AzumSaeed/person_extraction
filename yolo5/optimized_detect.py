@@ -137,7 +137,7 @@ if __name__ == '__main__':
             #ss = cv2.putText(ss, str(nn[0]), (x, y), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 125), 3)
 
                 try:
-                    ss = cv2.resize(ss, (48, 128))
+                    #ss = cv2.resize(ss, (48, 128))
                     cv2.imwrite(path_save_person+str(persons_id)+'.jpg',ss)
                     persons_id +=1
                 #cv2.imshow("Result", ss)
